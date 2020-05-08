@@ -35,6 +35,8 @@ WORKDIR /working
 # NOTE: This is above the addition of the file, as it will be one less layer to build as the file changes.
 CMD ["./entry.sh"]
 
+ENV SAY_HI="Hi,"
+
 # Add in our file
 COPY hello.sh entry.sh
 
