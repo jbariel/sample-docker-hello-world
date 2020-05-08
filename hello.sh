@@ -19,4 +19,5 @@
 ## under the License.                                           ##
 ##################################################################
 
-echo "Hello World!"
+
+echo "Hello ${USER_NAME:-World}!"
